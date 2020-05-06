@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282d34!important;
+    color: #ffffff!important;
+    font-family: 'Roboto', sans-serif!important;
+    position: relative;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+nav .navbar-custom {
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', 'Roboto', sans-serif!important;
+    font-weight: 600;
+}
+
+.page-container-initial {
+    min-width: auto;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #282d34 0%, #2E1F41 100%), #282d34;
+}
+
+.page-container-portfolio {
+    min-width: auto;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #2E1F41 0%, #282D34 100%), #2E1F41;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, .75)!important;
+    font-weight: 700;
+}
+
+.nav-link.disabled {
+    color: #6c757d !important;
+}
+
+.nav-item { 
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #BB81DE!important;
+}
+
+.collapse:not(.show) {
+    display: none!important;
+}
+
+.footer-custom {
+    background-color: #3D2247;
+    min-height: 7.5vh;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px
+}
+
+.big {
+    font-size: 32px
+}
+
+.footer-custom i:hover, .profile-link:hover {
+    color: #BB81DE;
+    cursor: pointer
+}
+
+.home-img {
+    height: 750px;
+    width: 750px;
+    transition: 0.2s;
+}
+
+.cat-img {
+    max-height: 750px;
+    transition: 0.2s;
+}
+
+.home-img:hover {
+    transition: 0.2s;
+    box-shadow: 5px 5px 15px  rgba(238, 81, 165,0.5);
+}
+
+.cat-img:hover {
+    transition: 0.2s;
+    box-shadow: 5px 5px 15px  rgba(238, 81, 165,0.5);
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtitle-text {
+    color: #BBBBBB;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: #BBBBBB;
+    font-weight: 700;
+}
+
+.btn-pink {
+    background-color: #FF63B6!important;
+    color: #282d34!important;
+}
+
+.btn-pink:hover {
+    transition: 0.2s!important;
+    color: #282d34!important;
+    background-color: rgb(238, 81, 165)!important
+}
+
+.profile-card {
+    transition: 0.2s;
+    width: inherit;
+    height: 120px;
+    max-width: 470px!important; 
+    min-width: 360px!important;
+    background-color: #3D2247!important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.profile-card:hover {
+    transition: 0.2s;
+    box-shadow: 5px 5px 15px  rgba(238, 81, 165,0.5);
+}
+
+.element {
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #fff;
+}
