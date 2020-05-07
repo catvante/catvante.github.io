@@ -1,1 +1,1 @@
-# catvante.giuhub.io
+# Vante's Landing Page
