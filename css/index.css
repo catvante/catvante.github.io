@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -33,12 +38,14 @@ nav .navbar-custom {
     min-width: auto;
     min-height: 100vh;
     background: linear-gradient(180deg, #282d34 0%, #2E1F41 100%), #282d34;
+    scroll-margin-top: 2em;
 }
 
 .page-container-portfolio {
     min-width: auto;
     min-height: 100vh;
     background: linear-gradient(180deg, #2E1F41 0%, #282D34 100%), #2E1F41;
+    scroll-margin-top: 2em;
 }
 
 .nav-link {
@@ -46,6 +53,9 @@ nav .navbar-custom {
     font-weight: 700;
 }
 
+.nav-link.active {
+    color: #BB81DE!important;
+}
 .nav-link.disabled {
     color: #6c757d !important;
 }
