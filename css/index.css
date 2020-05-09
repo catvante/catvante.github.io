@@ -80,7 +80,10 @@ nav .navbar-custom {
 .footer-link {
     text-decoration: none;
     color: #fff;
-    margin: 0 15px
+}
+
+footer .navbar-nav {
+    flex-direction: row!important;
 }
 
 .big {
