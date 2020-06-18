@@ -136,6 +136,10 @@ footer .navbar-nav {
     font-weight: 700;
 }
 
+.card-body {
+    min-width: 150px;
+}
+
 .btn-pink {
     background-color: #FF63B6!important;
     color: #282d34!important;
