@@ -150,11 +150,12 @@ footer .navbar-nav {
 .profile-card {
     transition: 0.2s;
     width: inherit;
-    height: 120px;
+    height: 126px;
     max-width: 470px!important; 
     min-width: 360px!important;
     background-color: #3D2247!important;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .profile-card:hover {
